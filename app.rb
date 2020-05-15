@@ -23,7 +23,8 @@ class App < Sinatra::Base
 
    @mul1= params[:mul1].to_i
    @mul2= params[:mul2].to_i
-   "#{@mul1 * @mul2}"
+   @mul=@mul1 * @mul2
+   "#{@mul}"
 
   end
 
