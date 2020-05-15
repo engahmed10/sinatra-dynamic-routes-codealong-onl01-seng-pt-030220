@@ -22,8 +22,7 @@ class App < Sinatra::Base
 
    @mul1=params[:mul1]
    @mul2=params[:mul2]
-   binding.pry
-   #"#{@mul1 * @mul2}"
+
   end
 
 
