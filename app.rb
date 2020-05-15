@@ -21,8 +21,9 @@ class App < Sinatra::Base
   
   get '/multiply/mul1/mul2' do
 
-   @mul1= params[:mul1]
-   @mul2= params[:mul2]
+   @mul1= params[:mul1].to_i
+   @mul2= params[:mul2].to_i
+   "#{@mul*@mul2}"
 
   end
 
