@@ -19,7 +19,7 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
 
-  get '/multiply/mul1/mul2' do
+  get '/multiply/:mul1/:mul2' do
 
    @mul1= params[:mul1].to_i
    @mul2= params[:mul2].to_i
