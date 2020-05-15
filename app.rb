@@ -20,8 +20,8 @@ class App < Sinatra::Base
   end
   get '/multiply/mul1/mul2' do
 
-   @mul1=params[:mul1]
-   @mul2=params[:mul2]
+   @mul1= params[:mul1]
+   @mul2= params[:mul2]
 
   end
 
