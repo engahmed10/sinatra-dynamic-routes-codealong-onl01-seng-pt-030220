@@ -8,8 +8,8 @@ class App < Sinatra::Base
   end
 
   # This is a sample dynamic route.
-  get "/hello/:name" do
-    @user_name = params[:name]
+  get "/hello/:aa" do
+    @user_name = params[:aa]
     "Hello #{@user_name}!"
   end
 
